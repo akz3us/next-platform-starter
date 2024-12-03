@@ -1,12 +1,3 @@
 [build]
   publish = ".next"
   command = "npm run build"
-
-[[plugins]]
-  package = "@netlify/plugin-csp-nonce"
-  [plugins.inputs]
-    reportOnly = false
-    excludedPath = [
-      "/api/*",
-      "**/*.bespoke.extension"
-    ]
