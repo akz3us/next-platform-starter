@@ -9,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@netlify/plugin-csp-nonce": "1.3.6",
         "@netlify/blobs": "^8.1.0",
         "blobshape": "^1.0.0",
         "bright": "^0.8.5",
