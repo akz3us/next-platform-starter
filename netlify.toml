@@ -6,6 +6,7 @@
   package = "@netlify/plugin-csp-nonce"
   [plugins.inputs]
     reportOnly = true
+    unsafeEval = false
     excludedPath = [
       "/api/*",
       "**/*.bespoke.extension"
